@@ -2,6 +2,8 @@
 
 To aid in the development of your PWA (Progressive Web Application), this plugin will take in a single icon file and automatically generate all required sizes for your various devices and engines that may need them. It will also generate your `manifest.json`, `browserconfig.xml`, and other manifest files that browsers use to render your application.
 
+> **Unfinished** - This library is working but it does not cache the results at this time. Until that is completed it will significantly slow down each webpack compilation.
+
 ## Example
 
 ```javascript
