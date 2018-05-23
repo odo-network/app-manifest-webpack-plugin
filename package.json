@@ -1,0 +1,40 @@
+{
+  "name": "app-manifest-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Webpack Manifest and Favicons Loader",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "author": "Braden R. Napier",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "babel -d dist src"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.47",
+    "@babel/core": "^7.0.0-beta.47",
+    "@babel/node": "^7.0.0-beta.47",
+    "@babel/plugin-codemod-optional-catch-binding": "^7.0.0-beta.47",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.47",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.47",
+    "@babel/polyfill": "^7.0.0-beta.47",
+    "@babel/preset-env": "^7.0.0-beta.47",
+    "@babel/preset-flow": "^7.0.0-beta.47",
+    "@babel/preset-react": "^7.0.0-beta.47",
+    "@babel/preset-stage-0": "^7.0.0-beta.47",
+    "@babel/register": "^7.0.0-beta.47",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-lodash": "^3.3.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-compat": "^2.2.0",
+    "eslint-plugin-flowtype": "^2.46.3",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-promise": "^3.7.0",
+    "loader-utils": "^1.1.0",
+    "schema-utils": "^0.4.5",
+    "webpack": "^4.8.3"
+  }
+}
